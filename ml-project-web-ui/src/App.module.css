@@ -1,0 +1,61 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 2s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contentContainer {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.title {
+  font-size: 56px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 22px;
+}
+
+.actionsContainer {
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.textInput {
+  width: 90%;
+}
+
+.percentageBarContainer {
+  margin: 10px 0;
+  width: 90%;
+}
+
+.aspectsContainer {
+  width: 90%;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
